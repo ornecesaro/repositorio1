@@ -1,0 +1,452 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: arial;
+}
+.logo{
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, black 85%, red);
+}
+#header{
+    width: 100%;
+    font-family: Arial;
+    background-color: white;
+    display: block;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: black;
+    color: red;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover ul{
+    display: block;
+}
+header form{
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    margin-right: 5px;
+}
+header input{
+    width: 300px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sec1{
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/setupredragon.jpg);
+    background-size: cover;
+}
+.sec1 h3{
+    font-size: 60px;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    right: 40px;
+    top: 780px;
+}
+
+.separador{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(55, 52, 52);
+    border: black;
+}
+h2{
+    color: red;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.sec2{
+    color: black;
+    background-image: linear-gradient(to right bottom, black 50%, red);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sec2 main div{
+    margin-top: 50px;
+    width: 448px;
+}
+
+.sec2 main{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.sec2 main div article{
+    margin-top: 40px;
+    background-color: white;
+}
+
+.sec2 h4 a{
+    background-color: rgb(55, 52, 52);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.sec2 h4:hover{
+    transform: scale(1.1);
+}
+
+.sec2 h4{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sec3{
+    background-image: linear-gradient(to left bottom, red, black 50%);
+    height: 700px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sec4 h2{
+    font-size: 60px;
+    color: white;
+    font-family: Arial;
+}
+
+.sec5 h2{
+    color: white;
+    text-align: center;
+}
+
+
+#galeria{
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 750px;
+}
+
+#galeria div:hover{
+    transform: scale(1.1);
+}
+
+.img{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    background-color: yellow;
+}
+
+.img1{
+    grid-column: 1/3;
+    grid-row: 1/5;
+    background-image: url(../pages/imgGaleria/c806e7c4-cc79-45b4-86ce-bd80f9c368c2.__CR0\,0\,970\,600_PT0_SX970_V1___.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img2{
+    grid-column: 3/5;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/FNh5xtcWUAoIxHn.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img3{
+    grid-column: 1/3;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/Megamenu-Audio-1500x1182-1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img4{
+    grid-column: 3/4;
+    grid-row: 1/5;    
+    background-image: url(../pages/imgGaleria/MOBILE-12.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img5{
+    grid-column: 5/6;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/Redragon-pelops-IMAGEN-NOTA-BLOG.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img6{
+    grid-column: 4/6;
+    grid-row: 1/5;
+    background-image: url(../pages/imgGaleria/Web_Setup-Auri_Blanco.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sec1rosa img{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.productosnav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.productosnav div{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.sec2rosa{
+    background-image: url(../pages/imgRosa/61y3HFX6JKL._AC_SL1500_.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.sec3{
+    height: 1500px;
+}
+
+.sec3 div{
+    width: 480px;
+    height: 480px;
+    margin: 10px 10px 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: white;
+    background-image: url();
+}
+
+.sec4{
+    height: 700px;
+    background-image: url(../img/Dark-Avenger-K568-web-Casuales-1356x890-5.jpg);
+    background-size: cover;
+}
+
+.sec4 h3{
+    font-size: 60px;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    transform: translate(1150px, 30px)
+
+}
+
+footer{
+    background-color: rgb(55, 52, 52);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer main{
+    color: white;
+    margin: 150px;
+    height: 300px;
+}
+footer nav{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    color: black;
+    font-size: 40px;
+}
+footer nav a{
+    color: black;
+}
+#logofooter{
+    width: 100%;
+    background-color: rgb(55, 52, 52);
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+    header{
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .nav li a{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav li{
+        background-color: white;
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #galeria{
+        display: block;
+    }
+    #galeria div{
+        width: 100%;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .sec1{
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/setupredragon.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+    .sec1 h3{
+        font-size: 45px;
+        color: white;
+        font-family: Arial;
+        margin: 20px;
+        top: 180px;
+    }
+
+    h2{
+        color: red;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .sec2 main div{
+        margin-top: 20px;
+        width: 300px;
+    }
+    
+    .sec2 main{
+        margin-bottom: 30px;
+        display: grid;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    iframe{
+        text-align: center;
+        width: 300px;
+    }
+    
+    .sec2 main div article{
+        margin-top: 10px;
+        background-color: white;
+    }
+    
+    .sec2 h4 a{
+        background-color: rgb(55, 52, 52);
+        padding: 10px;
+        color: white;
+        
+    }
+
+    .productosnav div{
+        display: grid;
+        transform: scale(0.7);
+    }
+
+    .sec4 h3{
+        font-size: 60px;
+        color: white;
+        font-family: Arial;
+        position: absolute;
+        bottom: 200px;
+    }
+
+
+
+    footer{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-content: flex-end;
+    }
+    footer main{
+        margin: 0;
+        padding: 0;
+        color: white;
+        height: 650px;
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+    footer nav{
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        height: 45px;
+        color: black;
+        font-size: 40px;
+    }
+    footer nav a{
+        color: black;
+    }
+    #logofooter{
+        width: 100%;
+        background-color: rgb(55, 52, 52);
+        text-align: center;
+    }
+    
+
+}
+
