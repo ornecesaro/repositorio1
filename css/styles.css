@@ -149,9 +149,30 @@ a{
     font-family: Arial;
 }
 
+.sec5{
+    background-image: url(../pages/imgRosa/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+    text-align: right;
+}
+
+.sec5 a{
+    background-color: rgb(55, 52, 52);
+    padding: 10px;
+    color: white;
+}
+
+.sec5 h4{
+    margin-top: 800px;
+    margin-right: 50px;
+}
+
 .sec5 h2{
     color: white;
     text-align: center;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 
@@ -287,11 +308,13 @@ footer{
     line-height: 30px;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
 }
 footer main{
     color: white;
     margin: 150px;
     height: 300px;
+    margin-top: 10px;
 }
 footer nav{
     background-color: white;
@@ -311,12 +334,12 @@ footer nav a{
 
 @media only screen and (max-width: 480px){
     header{
-        font-size: 10px;
+        font-size: 15px;
         padding: 0;
         margin: 0;
     }
     .header{
-        font-size: 10px;
+        font-size: 15px;
         margin: 0;
         padding: 0;
     }
@@ -357,11 +380,11 @@ footer nav a{
 
     }
     .sec1 h3{
-        font-size: 45px;
+        font-size: 40px;
         color: white;
         font-family: Arial;
         margin: 20px;
-        top: 180px;
+        top: 580px;
     }
 
     h2{
@@ -406,14 +429,53 @@ footer nav a{
     }
 
     .sec4 h3{
-        font-size: 60px;
+        font-size: 40px;
         color: white;
         font-family: Arial;
-        position: absolute;
-        bottom: 200px;
+        text-align: left;
+        transform: translate(12px, 30px);
     }
 
+    .sec3{
+        height: 1000px;
+    }
+    
+    .sec3 div{
+        width: 240px;
+        height: 240px;
+        margin: 10px 10px 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        border: white;
+        background-image: url();
+    }
 
+    .sec5{
+        background-image: url(../pages/imgRosa/maxresdefault.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        text-align: right;
+    }
+    
+    .sec5 a{
+        background-color: rgb(55, 52, 52);
+        padding: 10px;
+        color: white;
+    }
+    
+    .sec5 h4{
+        margin-top: 200px;
+        margin-right: 20px;
+    }
+    
+    .sec5 h2{
+        color: white;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
 
     footer{
         margin: 0;
@@ -422,11 +484,11 @@ footer nav a{
         align-content: flex-end;
     }
     footer main{
-        margin: 0;
+        margin: 10px;
         padding: 0;
         color: white;
         height: 650px;
-        font-size: 10px;
+        font-size: 15px;
         line-height: 20px;
 
     }
@@ -449,4 +511,3 @@ footer nav a{
     
 
 }
-
