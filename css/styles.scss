@@ -1,0 +1,509 @@
+$v0: white;
+$gris: rgb(55, 52, 52);
+
+* {
+    margin: 0 0 0 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+.logo {
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, black 85%, red);
+}
+
+#header {
+    width: 100%;
+    font-family: Arial;
+    background-color: $v0;
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: $v0;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: black;
+    color: red;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover ul {
+    display: block;
+}
+
+header form {
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    margin-right: 5px;
+}
+
+header input {
+    width: 300px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sec1 {
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/setupredragon.jpg);
+    background-size: cover;
+    h3 {
+        font-size: 60px;
+        color: $v0;
+        font-family: Arial;
+        position: absolute;
+        right: 40px;
+        top: 780px;
+    }
+}
+
+.separador {
+    width: 100%;
+    height: 40px;
+    background-color: $gris;
+    border: black;
+}
+
+h2 {
+    color: red;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.sec2 {
+    color: black;
+    background-image: linear-gradient(to right bottom, black 50%, red);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    main {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        div{
+            margin-top: 50px;
+            width: 448px;
+            article{
+                margin-top: 40px;
+                background-color: $v0;
+            }
+        }
+    }
+    h4 {
+        text-align: center;
+        padding-bottom: 40px;
+        a {
+        background-color: $gris;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: $v0;
+        }
+    }
+    h4:hover {
+        transform: scale(1.1);
+    }
+}
+
+.sec5 {
+    background-image: url(../pages/imgRosa/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+    text-align: right;
+    a {
+        background-color: $gris;
+        padding: 10px;
+        color: $v0;
+    }
+    h4 {
+        margin-top: 800px;
+        margin-right: 50px;
+    }
+    h2 {
+        color: $v0;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+#galeria {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 750px;
+    div:hover {
+        transform: scale(1.1);
+    }
+}
+
+.img {
+    border: 1px solid $v0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    background-color: yellow;
+}
+
+.img1 {
+    grid-column: 1/3;
+    grid-row: 1/5;
+    background-image: url(../pages/imgGaleria/c806e7c4-cc79-45b4-86ce-bd80f9c368c2.__CR0\,0\,970\,600_PT0_SX970_V1___.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    grid-column: 3/5;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/FNh5xtcWUAoIxHn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    grid-column: 1/3;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/Megamenu-Audio-1500x1182-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    grid-column: 3/4;
+    grid-row: 1/5;
+    background-image: url(../pages/imgGaleria/MOBILE-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5 {
+    grid-column: 5/6;
+    grid-row: 5/9;
+    background-image: url(../pages/imgGaleria/Redragon-pelops-IMAGEN-NOTA-BLOG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6 {
+    grid-column: 4/6;
+    grid-row: 1/5;
+    background-image: url(../pages/imgGaleria/Web_Setup-Auri_Blanco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1rosa img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.productosnav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    div {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+.sec2rosa {
+    background-image: url(../pages/imgRosa/61y3HFX6JKL._AC_SL1500_.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.sec3 {
+    height: 1500px;
+    background-image: linear-gradient(to left bottom, red, black 50%);
+    height: 700px;
+    margin-top: 0;
+    padding-top: 0;
+    div {
+        width: 480px;
+        height: 480px;
+        margin: 10px 10px 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        border: $v0;
+        background-image: url();
+    }
+}
+
+.sec4 {
+    height: 700px;
+    background-image: url(../img/Dark-Avenger-K568-web-Casuales-1356x890-5.jpg);
+    background-size: cover;
+    h2 {
+        font-size: 60px;
+        color: $v0;
+        font-family: Arial;
+    }
+    h3 {
+        font-size: 60px;
+        color: $v0;
+        font-family: Arial;
+        position: absolute;
+        transform: translate(1150px, 30px);
+    }
+}
+
+footer {
+    background-color: $gris;
+    color: $v0;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    main {
+        color: $v0;
+        margin: 150px;
+        height: 300px;
+        margin-top: 10px;
+    }
+    nav {
+        background-color: $v0;
+        width: 100%;
+        height: 45px;
+        color: black;
+        font-size: 40px;
+        a {
+            color: black;
+        }
+    }
+}
+
+
+
+    #logofooter {
+        width: 100%;
+        background-color: $gris;
+        text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav li {
+        background-color: $v0;
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        a {
+            background-color: $v0;
+            color: black;
+            text-decoration: none;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    #galeria {
+        display: block;
+    }
+
+    #galeria div {
+        width: 100%;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .sec1 {
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/setupredragon.jpg);
+        background-position: center;
+        background-size: cover;
+        h3 {
+            font-size: 40px;
+            color: $v0;
+            font-family: Arial;
+            margin: 20px;
+            top: 580px;
+        }
+    }
+
+    h2 {
+        color: red;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .sec2 main {
+        margin-bottom: 30px;
+        display: grid;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        div {
+            margin-top: 20px;
+            width: 300px;
+            article {
+                margin-top: 10px;
+                background-color: $v0;
+            }
+        }
+    }
+
+    iframe {
+        text-align: center;
+        width: 300px;
+    }
+
+    .sec2 h4 a {
+        background-color: $gris;
+        padding: 10px;
+        color: $v0;
+    }
+
+    .productosnav div {
+        display: grid;
+        transform: scale(0.7);
+    }
+
+    .sec4 h3 {
+        font-size: 40px;
+        color: $v0;
+        font-family: Arial;
+        text-align: left;
+        transform: translate(12px, 30px);
+    }
+
+    .sec3 {
+        height: 1000px;
+        div {
+            width: 240px;
+            height: 240px;
+            margin: 10px 10px 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            border: $v0;
+            background-image: url();
+        }
+    }
+
+    .sec5 {
+        background-image: url(../pages/imgRosa/maxresdefault.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        text-align: right;
+        a {
+            background-color: $gris;
+            padding: 10px;
+            color: $v0;
+        }
+        h4 {
+            margin-top: 200px;
+            margin-right: 20px;
+        }
+        h2 {
+            color: $v0;
+            text-align: center;
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-content: flex-end;
+        main {
+            margin: 10px;
+            padding: 0;
+            color: $v0;
+            height: 650px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        nav {
+            margin: 0;
+            background-color: $v0;
+            width: 100%;
+            height: 45px;
+            color: black;
+            font-size: 40px;
+            a {
+                color: black;
+            }
+        }
+    }
+
+    #logofooter {
+        width: 100%;
+        background-color: $gris;
+        text-align: center;
+    }
+}
+
+/*# sourceMappingURL=styles.scss.map */
